@@ -3,3 +3,4 @@
 
 pip-tools
 Django
+flake8
