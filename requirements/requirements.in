@@ -1,0 +1,5 @@
+# Hype project dependencies for development
+# Keep the list sorted A-Z
+
+pip-tools
+Django
