@@ -1,2 +1,4 @@
-# Add your names below as a part of whatever-I-said in the group
+# Add your name below as part of the development process exercise
+# Only fix issue assigned to you.
+
 Nitin Paul (Darth NotSerious)
