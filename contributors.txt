@@ -2,4 +2,9 @@
 # Only fix issue assigned to you.
 
 Nitin Paul (Darth NotSerious)
-Shashank Verma 
+<<<<<<< HEAD
+=======
+Mohit Mohan (Fat Brown Guy)
+>>>>>>> 6f40f3c5ff2b2098ef262435ef0f9c22cdf0f8d1
+
+Shashank Verma
