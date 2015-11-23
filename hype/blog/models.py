@@ -15,7 +15,7 @@ class Post(models.Model):
     title = models.CharField(max_length=255)
     author = models.ForeignKey('Post')
     body = models.TextField()
-    published_on = models.DateTimeField(auto_now=True)
+    published_on = models.DateTimeField(auto_now=True ) 
     published = models.BooleanField(default=False)
     slug = models.SlugField(max_length=255, blank=True)
     tag = models.ManyToManyField(Tag, related_name="post")
