@@ -2,12 +2,11 @@ from django.db import models
 
 # Create your models here.
 class Tag(models.Model):
-    tag_name = models.CharField(max_length=30)
     slug = models.SlugField(max_length=255, blank=True)
     create_on = models.DateTimeField(auto_now_add=False)
 
     def __str__(self):
-        return self.tag_name
+        return self.slug
 
 
 class Post(models.Model):
